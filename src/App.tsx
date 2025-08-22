@@ -22,7 +22,6 @@ const App = () => {
     
     switch (user.role) {
       case 'rink_admin':
-      case 'rink_owner':
         return RinkLayout;
       case 'player':
       case 'coach':
